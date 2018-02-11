@@ -1,0 +1,60 @@
+.Ui-form-main {
+    border: 1px solid #bbbbbb;
+    overflow: hidden;
+    width: 50%; 
+    margin: 0 auto; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.Ui-form-title {
+    text-align: left;
+    padding: 10px 0 0 10px;
+    font-size: 25px;
+    width: 350px;
+    position: absolute;
+}
+.Ui-form-icon {
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding: 10px;
+}
+.Ui-form-subtitle {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: #bbbbbb;
+    font-weight: 100;
+    width: 350px;
+    position: relative;
+    margin-top: 35px;
+}
+.Ui-form-select {
+    position: relative;
+    height: 60px;
+    padding: 10px;
+}
+.Ui-select {
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: #eef2f7;
+    font-size: 20px;
+    font-weight: 100;
+}
+.Ui-select:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Ui-form-main {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .Ui-form-main {
+        width: 95%;
+    }
+}

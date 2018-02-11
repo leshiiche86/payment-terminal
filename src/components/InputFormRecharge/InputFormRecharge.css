@@ -1,0 +1,52 @@
+.Ui-input {
+    position: relative;
+    height: auto;
+    padding: 10px;
+}
+
+.Ui-input-component {
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: #eef2f7;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Ui-input-component:focus {
+    outline: none;
+}
+
+.Ui-submit-btn {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+}
+.Ui-submit-btn:hover {
+    background-color: rgb(26, 107, 187)
+}
+.Ui-submit-btn:focus {
+    outline: none;
+}
+.Ui-validate-message {
+    color: red;
+    font-weight: 100;
+    font-size: 12px;
+    float: left;
+    margin-top: -15px;
+}
+.preloader-icon {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

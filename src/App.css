@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-container {
+  width: 50%; 
+  margin: 0 auto; 
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.App-recharge-balans-title {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.App-recharge-block {
+  overflow: hidden;
+  border: 1px solid #bbbbbb;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.App-operator-id {
+  float: left;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .App-container {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .App-container {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
+
+
