@@ -12,7 +12,7 @@
 
 Этот проект был собран с помощью утилиты [Create React App](https://github.com/facebookincubator/create-react-app).
 
-После клонирования надо заигсталить все зависимости: 
+После клонирования установить все зависимости: 
 
 ### `npm install`
 
